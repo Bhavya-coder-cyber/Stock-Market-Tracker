@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Market</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Stock Market App</h1>
+      <div class="input-container">
+        <input type="text" id="company-input" placeholder="Enter company symbol" />
+        <button id="get-price-btn">Get Price</button>
+      </div>
+      <div id="price-info" class="hidden">
+        <h2 id="company-name"></h2>
+        <p id="price"></p>
+        <p id="message"></p>
+      </div>
+      <p id="error-message" class="hidden">Company not found. Please try again.</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
